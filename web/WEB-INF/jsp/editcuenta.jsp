@@ -16,13 +16,13 @@
     <body>
          
         <f:form action="updatecuenta.html" modelAttribute="Cuenta">
-            <input type="hidden" name="id" value="${c.idCuenta}"/>
-            <label for="nombreid">Nombre Cuenta: </label>
+            <input type="hidden" name="idCuenta" value="${c.idCuenta}"/>
+            <%--<label for="nombreid">Nombre Cuenta: </label>
             <input type="text" name="nombreCuenta" value="${c.nombreCuenta}" id="nombreid"/>
-            <label for="passwordCuentaid">Contraseña </label>
+            <label for="passwordCuentaid">Contraseña </label>--%>
             <input type="text" name="passwordCuenta"  id="passwordCuentaid"value="${c.passwordCuenta}" />
-            <label for="fechaid">Fecha creacion:</label>
-            <input type="text" name="fechaCreacionCuenta"  id="fechaid"value="${c.fechaCreacionCuenta}" />
+            <%--<label for="fechaid">Fecha creacion:</label>
+            <input type="text" name="fechaCreacionCuenta"  id="fechaid"value="${c.fechaCreacionCuenta}" />--%>
             <br/>
                         
             <br/>

@@ -50,9 +50,9 @@ public class CuentaController {
       
        Cuentas aux= new Cuentas();
         aux=model.getCuenta(c.getIdCuenta());
-        aux.setNombreCuenta(c.getNombreCuenta());
+        //aux.setNombreCuenta(c.getNombreCuenta());
         aux.setPasswordCuenta(c.getPasswordCuenta());
-        aux.setFechaCreacionCuenta(c.getFechaCreacionCuenta());
+        //aux.setFechaCreacionCuenta(c.getFechaCreacionCuenta());
         model.edit(aux);
         return "redirect:getAllacc.html";
     }

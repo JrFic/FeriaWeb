@@ -38,7 +38,7 @@
                     
                     <td>
                         <a href="editcuenta.html?id=${c.idCuenta}">
-                            Edit </a>
+                            Cambiar contraseña </a>
                         <a href="removecuenta.html?id=${c.idCuenta}" onclick="return confirm('Are you sure?')">Remove</a>
                     </td>
                 </tr>
