@@ -16,7 +16,7 @@ import org.hibernate.Session;
  */
 public class UsuarioModel {
 
-    //conexion
+    
     public List<Usuarios> getAll() {
         List<Usuarios> lst = new ArrayList<Usuarios>();
         Session s = HibernateUtil.getSessionFactory().getCurrentSession();
