@@ -28,7 +28,7 @@
 </head>
 
 <body>
-
+    
     <!-- Navigation -->
     <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
         <div class="container">
@@ -40,7 +40,7 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand" href="#">Feria Web Frutos Frescos</a>
+                <a class="navbar-brand" href="PaginaInicio.html">Feria Web Frutos Frescos</a>
             </div>
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div style="float:right;" class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
@@ -63,7 +63,7 @@
         <div class="row">
             
             <div class="col-md-3">
-          <p class="lead">[Insertar Logo]</p>
+          <img class="lead" src="recursos/logo.png">
           <div class="list-group">
             <a href="#" class="list-group-item">Test Ofertas</a>
             <a href="#" class="list-group-item">Category 2</a>

@@ -54,7 +54,7 @@
     <div class="container">
       <div class="row">
         <div class="col-md-3">
-          <p class="lead">[Insertar Logo]</p>
+           <img class="lead" src="recursos/logo.png">
           <div class="list-group">
             <a href="#" class="list-group-item">Test Ofertas</a>
             <a href="#" class="list-group-item">Category 2</a>
